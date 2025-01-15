@@ -15,11 +15,7 @@ const Skills =()=> {
         <img src= "/images/github-icon.png"/> 
 
 </div>
-        {/* <ul className="grid grid-cols-3 gap-6">
-          <li className="bg-blue-950 text-white p-6 rounded-md shadow-md">React</li>
-          <li className="bg-blue-950 text-white p-6 rounded-md shadow-md">Tailwind CSS</li>
-          <li className="bg-blue-950 text-white p-6 rounded-md shadow-md">JavaScript</li>
-        </ul> */}
+        
       </div>
     </section>
   );
