@@ -2,27 +2,29 @@ const projects = [
   {
     id: 1,
     title: "Website page",
-    description: "This project is a dynamic and responsive portfolio website built using React and Tailwind CSS. It showcases a collection of my front-end development projects, highlighting my skills in web design, coding, and user interface design. The site is fully responsive.",
+    description:
+      "This is a fully completed and professionally built website created using React and Tailwind CSS. The site includes all essential functionalities such as dynamic components, modern design, and complete responsiveness. High-quality coding standards have been maintained, ensuring simplicity, efficiency, and ease of management. The project perfectly reflects my skills in web development, design, and user interface optimization",
     image: "/images/home.png",
-    viewLink: "",
+    viewLink: "https://ecommerce-gold-pi.vercel.app/",
     codeLink: "https://github.com/mariamdopidze/final-projcet",
   },
   {
     id: 2,
     title: "Animate",
-    description: "Using design and animation elements, I created interactive experiences where images move and rotate with the help of CSS. This project showcases my ability to implement even simple, yet visually striking effects.",
+    description:
+      "Using design and animation elements, I created interactive experiences where images move and rotate with the help of CSS. This project showcases my ability to implement even simple, yet visually striking effects.",
     image: "/images/animation.jpeg",
     viewLink: "https://mariamdopidze.github.io/animations/",
     codeLink: "https://github.com/mariamdopidze/animations",
   },
   {
     id: 3,
-    title: "Project 3",
-    description: "A short description of the project.",
-    image: "/images/home.png",
-    viewLink: "#",
-    codeLink: "#",
-  }
+    title: "Portfolio",
+    description: "This is a fully completed and professionally built portfolio website created using React and Tailwind CSS. The site includes all essential sections such as Home, About, Skills, Projects, Contact, and Footer. The portfolio is fully responsive and showcases my front-end development skills, web design, and user interface optimization.",
+    image: "/images/portfolio.jpeg",
+    viewLink: "https://mariamdopidze-portfolio.vercel.app/",
+    codeLink: "https://github.com/mariamdopidze/mariamdopidze-portfolio",
+  },
 ];
 
 const Projects = () => {
@@ -32,9 +34,18 @@ const Projects = () => {
         <h2 className="text-4xl font-bold mb-8">Projects</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <div key={project.id} className="bg-white text-gray-900 shadow-lg rounded-xl p-6 hover:scale-105 transition-transform duration-300">
-              <img className="h-auto w-auto mb-4" src={project.image} alt={project.title} />
-              <h3 className="text-2xl font-semibold mb-2 text-[#1E3A8A]">{project.title}</h3>
+            <div
+              key={project.id}
+              className="bg-white text-gray-900 shadow-lg rounded-xl p-6 hover:scale-105 transition-transform duration-300"
+            >
+              <img
+                className="h-auto w-auto mb-4"
+                src={project.image}
+                alt={project.title}
+              />
+              <h3 className="text-2xl font-semibold mb-2 text-[#1E3A8A]">
+                {project.title}
+              </h3>
               <p className="mb-4 text-[#1E3A8A]">{project.description}</p>
               <div className="flex gap-4">
                 <a
