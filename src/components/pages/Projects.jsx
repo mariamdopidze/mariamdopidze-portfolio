@@ -1,3 +1,6 @@
+import Header from "../Header";
+import Footer from "../Footer";
+
 const projects = [
   {
     id: 1,
@@ -28,7 +31,11 @@ const projects = [
 ];
 
 const Projects = () => {
+ 
+
   return (
+    <div>
+    <Header/>
     <section id="projects" className="py-16 px-8 bg-gradient-to-r text-black">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-8">Projects</h2>
@@ -66,6 +73,8 @@ const Projects = () => {
         </div>
       </div>
     </section>
+    <Footer/>
+    </div>
   );
 };
 

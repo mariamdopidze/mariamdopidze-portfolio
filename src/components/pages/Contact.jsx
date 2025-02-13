@@ -1,3 +1,6 @@
+import Footer from "../Footer";
+import Header from "../Header";
+
 const contactLinks = [
   {
     id: 1,
@@ -18,6 +21,8 @@ const contactLinks = [
 
 const Contact = () => {
   return (
+    <div>
+      <Header/>
     <section id="contact" className="py-16 px-8 bg-[#301934] text-white">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-4">Contact Me</h2>
@@ -35,6 +40,8 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    <Footer/>
+    </div>
   );
 };
 

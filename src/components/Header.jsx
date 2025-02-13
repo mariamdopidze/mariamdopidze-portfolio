@@ -5,10 +5,10 @@ const Header= () =>{
         <h1 className="text-2xl font-semibold">My Portfolio</h1>
         <nav>
           <ul className="flex space-x-6">
-            <li><a href="#about" className="hover:text-gray-200">About</a></li>
-            <li><a href="#skills" className="hover:text-gray-200">Skills</a></li>
-            <li><a href="#projects" className="hover:text-gray-200">Projects</a></li>
-            <li><a href="#contact" className="hover:text-gray-200">Contact</a></li>
+            <li><a href="/about" className="hover:text-gray-200">About</a></li>
+            <li><a href="/skills" className="hover:text-gray-200">Skills</a></li>
+            <li><a href="/project" className="hover:text-gray-200">Projects</a></li>
+            <li><a href="/contact" className="hover:text-gray-200">Contact</a></li>
           </ul>
         </nav>
       </div>

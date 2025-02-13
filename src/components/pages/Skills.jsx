@@ -1,5 +1,10 @@
+import Footer from "../Footer";
+import Header from "../Header";
+
 const Skills =()=> {
   return (
+    <div>
+      <Header/>
     <section id="skills" className="py-16 px-8">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-4">Skills</h2>
@@ -18,6 +23,8 @@ const Skills =()=> {
         
       </div>
     </section>
+    <Footer/>
+    </div>
   );
 }
 
