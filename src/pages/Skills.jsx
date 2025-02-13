@@ -1,9 +1,9 @@
-import Footer from "../Footer";
-import Header from "../Header";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const Skills =()=> {
   return (
-    <div>
+    <div className="bg-[#F5E6E8]">
       <Header/>
     <section id="skills" className="py-16 px-8">
       <div className="container mx-auto text-center">

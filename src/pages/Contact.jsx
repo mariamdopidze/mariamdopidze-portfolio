@@ -1,5 +1,5 @@
-import Footer from "../Footer";
-import Header from "../Header";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const contactLinks = [
   {
@@ -21,9 +21,9 @@ const contactLinks = [
 
 const Contact = () => {
   return (
-    <div>
+    <div className="">
       <Header/>
-    <section id="contact" className="py-16 px-8 bg-[#301934] text-white">
+    <section id="contact" className="py-16 px-8 bg-[#F5E6E8] text-[#1E3A8A]">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-4">Contact Me</h2>
         <p className="text-lg mb-4">Feel free to reach out for collaborations or just to connect.</p>
@@ -32,7 +32,7 @@ const Contact = () => {
             <a
               key={link.id}
               href={link.href}
-              className="text-lg text-white hover:text-[#FFD700] transition-colors"
+              className="text-lg text-[#1E3A8A] hover:text-[#FFD700] transition-colors"
             >
               {link.name}
             </a>

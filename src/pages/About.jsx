@@ -1,11 +1,11 @@
-import Header from "../Header";
-import Footer from "../Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
     <div>
         <Header/>
-    <section id="about" className="py-16 px-8 bg-[#F8F8F8]">
+    <section id="about" className="py-16 px-8 bg-[#F5E6E8]">
 
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-4">About Me</h2>

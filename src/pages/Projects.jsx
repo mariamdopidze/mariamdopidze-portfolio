@@ -1,5 +1,5 @@
-import Header from "../Header";
-import Footer from "../Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const projects = [
   {
@@ -43,7 +43,7 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-white text-gray-900 shadow-lg rounded-xl p-6 hover:scale-105 transition-transform duration-300"
+              className="bg-[#F5E6E8] text-gray-900 shadow-lg rounded-xl p-6 hover:scale-105 transition-transform duration-300"
             >
               <img
                 className="h-auto w-auto mb-4"
